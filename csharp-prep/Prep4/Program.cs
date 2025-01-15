@@ -33,7 +33,6 @@ class Program
         { 
         // create the sum
             sum += numbers[i]; 
-
         // find the largest number 
             if (numbers[i] > lrg)
             {
@@ -45,13 +44,10 @@ class Program
                 sml = numbers[i];
             }
         }
-
     // creat the advrage 
         avg = sum / (numbers.Count - 1);
-
     // sort the numbers    
         numbers.Sort();
-
     // display the results 
         Console.WriteLine();
         Console.WriteLine("-------------------");
@@ -60,7 +56,6 @@ class Program
         Console.WriteLine("The largest is:  " + lrg );
         Console.WriteLine("The smallest positive is: " + sml );
         Console.Write("The sorted list is: ");
-
         for (int i = 0; i < numbers.Count; i++)
         {
             Console.Write(numbers[i] + ", ");
