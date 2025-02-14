@@ -1,38 +1,28 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+// made by W00f
 public class Reference
 {
+// initals
+// The book of the reference
     public string Book { get; }
+// The starting chapter of the reference
     public int StartChapter { get; }
+// The starting verse of the reference
     public int StartVerse { get; }
-    public int EndChapter { get; }
-    public int EndVerse { get; }
 
+// Construct a reference for verse
     public Reference(string book, int startChapter, int startVerse)
     {
         Book = book;
         StartChapter = startChapter;
         StartVerse = startVerse;
-        EndChapter = startChapter;
-        EndVerse = startVerse;
     }
 
-    public Reference(string book, int startChapter, int startVerse, int endChapter, int endVerse)
-    {
-        Book = book;
-        StartChapter = startChapter;
-        StartVerse = startVerse;
-        EndChapter = endChapter;
-        EndVerse = endVerse;
-    }
-
+// return a string representation of the reference
     public override string ToString()
     {
-        if (StartChapter == EndChapter && StartVerse == EndVerse)
-        {
-            return $"{Book} {StartChapter}:{StartVerse}";
-        }
-        return $"{Book} {StartChapter}:{StartVerse}-{EndChapter}:{EndVerse}";
+        return $"{Book} {StartChapter}:{StartVerse}";
     }
 }
