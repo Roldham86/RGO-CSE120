@@ -31,8 +31,10 @@ public class GoalManager
     {
         for (int i = 0; i < Goals.Count; i++)
         {
+            Console.WriteLine("Goals:");
             var goal = Goals[i];
             Console.WriteLine($"{i + 1}. {goal.Description} - {(goal.IsComplete() ? "[X]" : "[ ]")} - {goal.Points} points");
+            Console.WriteLine();
         }
     }
 }

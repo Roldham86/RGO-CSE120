@@ -14,6 +14,6 @@ public class EternalGoal : Goal
 
     public override void RecordProgress()
     {
-        // Increment points each time the goal is recorded
+        // no use for this goal type
     }
 }

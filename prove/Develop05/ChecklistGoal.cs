@@ -4,9 +4,9 @@ using System.IO;
 //W00F
 public class ChecklistGoal : Goal
 {
-    public int TargetCount { get; }
+    public int TargetCount { get;}
     public int CurrentCount { get; set; }
-    public int BonusPoints { get; }
+    public int BonusPoints { get;}
 
     public ChecklistGoal(string description, int points, int targetCount, int bonusPoints)
     {
@@ -25,6 +25,7 @@ public class ChecklistGoal : Goal
         if (CurrentCount >= TargetCount)
         {
             // Add bonus points
+            Points += BonusPoints; // Add bonus points when the target count is reached
         }
     }
 

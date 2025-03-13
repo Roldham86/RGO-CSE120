@@ -26,6 +26,7 @@ public class Program
             Console.WriteLine("4. Load Goals");
             Console.WriteLine("5. Record Event");
             Console.WriteLine("6. Quit");
+            Console.WriteLine("---------------");
 
             switch (Console.ReadLine())
             {
@@ -61,6 +62,7 @@ public class Program
 
     private static void AddNewGoal()
     {
+        Console.WriteLine();
         Console.WriteLine("The types of goals are:");
         Console.WriteLine("1. Simple Goal");
         Console.WriteLine("2. Eternal Goal");
