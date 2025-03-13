@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-// Derived Classes
+//W00F
 public class SimpleGoal : Goal
 {
     public bool Completed { get; set; }

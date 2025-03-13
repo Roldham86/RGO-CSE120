@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+//W00F
 public class EternalGoal : Goal
 {
     public EternalGoal(string description, int points)

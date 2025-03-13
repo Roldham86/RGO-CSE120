@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
-
+//W00F
 public class FileHandler
 {
     public void SaveGoals(List<IGoal> goals, int totalPoints)

@@ -1,3 +1,4 @@
+//W00F
 public interface IGoal
 {
     string Description { get; }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+//W00F
 public class ChecklistGoal : Goal
 {
     public int TargetCount { get; }

@@ -1,3 +1,4 @@
+//W00F
 public abstract class Goal : IGoal
 {
     public string Description { get; protected set; }

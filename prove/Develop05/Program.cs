@@ -1,10 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-// Program and Main Function
-using System;
-using System.Collections.Generic;
-using System.IO;
+//W00F
 
 public class Program
 {

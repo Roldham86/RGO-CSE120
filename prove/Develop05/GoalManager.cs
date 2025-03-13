@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+//W00F
 public class GoalManager
 {
     public List<IGoal> Goals { get; private set; }
